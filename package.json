@@ -1,0 +1,27 @@
+{
+  "name": "tvml-string",
+  "description": "tvml-string loader for webpack",
+  "version": "0.0.4",
+  "main": "./index.js",
+  "author": {
+    "name": "Dmitry Rudakov",
+    "email": "dmitry.rudakov@me.com",
+    "url": "https://dmitryrudakov.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/picasso/tvml-string"
+  },
+  "keywords": [
+    "webpack",
+    "tvml-loader"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "loader-utils": "^1.1.0",
+    "schema-utils": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0"
+  }
+}
