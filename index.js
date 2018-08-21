@@ -3,7 +3,10 @@ const { stringifyRequest } = require('loader-utils')
 const getOptionsTVML = require('./src/get-options');
 
 module.exports = function() {};
-
+// ,
+// "devDependencies": {
+//   "babel-preset-env": "^1.7.0"
+// }
 module.exports.pitch = function(request) {
 
     // console.log('xere!');

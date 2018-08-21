@@ -32,8 +32,8 @@ function minifyCSS(style) {
 
 function tvml(source, options) {
 
-console.log('\n\n !!source:', source);
-console.log('\n\n !!options:',  options);
+// console.log('\n\n !!source:', source);
+// console.log('\n\n !!options:',  options);
 
     // autoclass works with minified source only
     if(options.autoclass) options.minify = true;
